@@ -1,5 +1,5 @@
 .page.theme_dark {
-  --bg-color-theme: #00183f;
+  --bg-color: #000028;
   --bg-image: url(../images/cover-image-dark.png);
   --color-title: #db00ff;
   --accent-color: #ff0070;
@@ -15,7 +15,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg-color-theme: #00183f;
+    --bg-color: #000028;
     --bg-image: url(../images/cover-image-dark.png);
     --color-title: #db00ff;
     --accent-color: #ff0070;
