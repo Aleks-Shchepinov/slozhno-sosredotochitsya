@@ -10,6 +10,7 @@
   --font-family: "IBM Plex Mono";
   --font-size-theme-menu-item: 18px;
   --title-decor: #ff8dcb;
+  --color-button-hover: rgb(50 49 45 / 0.4);
 }
 
 .page.theme_light .rec {
@@ -29,5 +30,10 @@
     --font-family: "IBM Plex Mono";
     --font-size-theme-menu-item: 18px;
     --title-decor: #ff8dcb;
+    --color-button-hover: rgb(50 49 45 / 0.4);
+  }
+
+  .rec {
+    display: none;
   }
 }

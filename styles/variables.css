@@ -9,5 +9,10 @@
   --color-text: #f1b2ce;
   --font-family: "IBM Plex Mono";
   --font-size-theme-menu-item: 18px;
-  --color-button-hover: #ff007066;
+  --color-button-hover: rgb(255 0 112 / 0.4);
+  --font-weight-content-list: 400;
+  --font-weight-subtitle: 700;
+  --line-height: 23.4px;
+  --line-height-title: 95.7px;
+  --text-align: left;
 }

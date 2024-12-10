@@ -9,8 +9,12 @@
   --color-text: #f1b2ce;
   --font-family: "IBM Plex Mono";
   --font-size-theme-menu-item: 18px;
-  --color-button-hover: #ff007066;
+  --color-button-hover: rgb(255 0 112 / 0.4);
   --title-decor: #ff0070;
+}
+
+.page.theme_dark .rec {
+  display: block;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -25,7 +29,11 @@
     --color-text: #f1b2ce;
     --font-family: "IBM Plex Mono";
     --font-size-theme-menu-item: 18px;
-    --color-button-hover: #ff007066;
+    --color-button-hover: rgb(255 0 112 / 0.4);
     --title-decor: #ff0070;
+  }
+
+  .rec {
+    display: block;
   }
 }
